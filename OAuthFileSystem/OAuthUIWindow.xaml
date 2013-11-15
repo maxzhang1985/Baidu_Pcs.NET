@@ -1,0 +1,8 @@
+﻿<Window x:Class="OAuthFileSystem.OAuth.OAuthUIWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="百度云存储登录" Height="600" Width="500" ShowInTaskbar="False" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None">
+    <Grid>
+        <WebBrowser x:Name="webbrowser" Navigated="webbrowser_Navigated" LoadCompleted="webbrowser_LoadCompleted"/>
+    </Grid>
+</Window>
